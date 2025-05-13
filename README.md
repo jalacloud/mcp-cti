@@ -4,7 +4,7 @@ An MCP (Model Context Protocol) server for accessing AlienVault Open Threat Exch
 ![ORKL + OTX](https://github.com/user-attachments/assets/8e6feb59-3735-4b29-8354-f8caa317fd5c)
 
 ## Overview
-This server directly connects to AlienVault's OTX DirectConnect API, allowing the Claude for desktop client to search, retrieve, and analyse cyber threat intelligence data. Use this tool to enhance your security analysis workflows by enabling Claude to access the most recent threat data, including:
+This server connects to AlienVault's OTX DirectConnect API, allowing the Claude for desktop client to search, retrieve, and analyse cyber threat intelligence data. Use this tool to interact with the OTX API using natural language prompting via Claude. By installing this MCP server, you get access to the most recent threat data, including:
 
 * Threat intelligence pulses
 * Indicators of compromise (IOCs)
@@ -17,7 +17,7 @@ This server directly connects to AlienVault's OTX DirectConnect API, allowing th
 * Real-time Threat Intelligence: Access the latest threat data from AlienVault OTX's global community
 * Comprehensive IOC Analysis: Check if IPs, domains, URLs, or file hashes are known to be malicious
 * Threat Actor Profiling: Retrieve information about known threat actors and their activities
-* Cached Results: Optimized performance with local caching of API responses
+* Cached Results: Optimised performance with local caching of API responses
 * Asynchronous API: Built with modern async Python for efficient handling of API requests
 
 ## Tools Provided
@@ -64,7 +64,7 @@ This server directly connects to AlienVault's OTX DirectConnect API, allowing th
    ```bash
    python -m venv .venv
    source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-   pip install -e .
+   pip install -e
 
 ### Quick install with Claude Desktop
 Add the following to your Claude Desktop configuration (claude_desktop_config.json):
