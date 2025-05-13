@@ -93,20 +93,20 @@ Linux: `~/.config/Claude/claude_desktop_config.json`
 ## Sample Prompts
 Here are some example prompts to use with the OTX MCP server:
 
-"Search for recent threat intelligence related to ransomware attacks on healthcare organisations."
-"Check if the IP address xxx.xx.xx.xx is associated with any known threats."
-"Get information about the Golden Chickens/Venom Spider threat actor and their recent activities."
-"Search OTX for specific industry-related threat intelligence. I am looking for threats targeting Financial Services organisations"
-"Find indicators of compromise related to the CWE-94 vulnerability."
-"Check if the domain malicious-example.com is known to be malicious."
-"Get the latest threat intelligence pulses from the past 3 days."
+- "Search for recent threat intelligence related to ransomware attacks on healthcare organisations."
+- "Check if the IP address xxx.xx.xx.xx is associated with any known threats."
+- "Get information about the Golden Chickens/Venom Spider threat actor and their recent activities."
+- "Search OTX for specific industry-related threat intelligence. I am looking for threats targeting Financial Services organisations"
+- "Find indicators of compromise related to the CWE-94 vulnerability."
+- "Check if the domain malicious-example.com is known to be malicious."
+- "Get the latest threat intelligence pulses from the past 3 days."
 
 ### Resource Types
 The server provides access to several resource types:
 
-Pulses: otx://pulse/{pulse_id}
-Indicators: otx://indicator/{indicator_type}/{indicator_value}
-Threat Actors: otx://actor/{actor_name}
+* Pulses: otx://pulse/{pulse_id}
+* Indicators: otx://indicator/{indicator_type}/{indicator_value}
+* Threat Actors: otx://actor/{actor_name}
 
 These resources can be referenced and accessed throughout your conversation with Claude.
 
