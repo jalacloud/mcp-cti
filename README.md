@@ -1,6 +1,8 @@
 # otx-cti MCP Server
 An MCP (Model Context Protocol) server for accessing AlienVault Open Threat Exchange (OTX) threat intelligence directly in Claude.
 
+![ORKL + OTX](https://github.com/user-attachments/assets/8e6feb59-3735-4b29-8354-f8caa317fd5c)
+
 ## Overview
 This server directly connects to AlienVault's OTX DirectConnect API, allowing the Claude for desktop client to search, retrieve, and analyse cyber threat intelligence data. Use this tool to enhance your security analysis workflows by enabling Claude to access the most recent threat data, including:
 
