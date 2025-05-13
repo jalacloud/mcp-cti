@@ -113,6 +113,6 @@ These resources can be referenced and accessed throughout your conversation with
 ### Security Considerations
 This tool is designed for legitimate security research and defence purposes. Always:
 
-*Use responsibly and follow applicable laws and regulations*
-*Maintain proper authorisation for any security testing*
-*Handle threat intelligence data with appropriate operational security controls (OPSEC)*
+* *Use responsibly and follow applicable laws and regulations*
+* *Maintain proper authorisation for any security testing*
+* *Handle threat intelligence data with appropriate operational security controls (OPSEC)*
